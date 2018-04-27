@@ -3,9 +3,13 @@
 using namespace std;
 
 GameBoard::GameBoard() {
-
+    missed_guesses = 2;
 }
 
 void GameBoard::draw_board(void) {
-    cout << "Draw board" << endl;
+
+}
+
+void GameBoard::user_guessed_incorrectly() {
+    missed_guesses += 1;
 }

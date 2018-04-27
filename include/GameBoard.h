@@ -7,6 +7,7 @@ class GameBoard {
         GameBoard();
 
         void draw_board(void);
+        void user_guessed_incorrectly();
 
     private:
         int missed_guesses;
