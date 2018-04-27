@@ -1,8 +1,6 @@
-#include <iostream>
-
-using namespace std;
+#include "GameBoard.h"
 
 int main() {
-    cout << "Hangman!" << endl;
-    return 0;
+    GameBoard board;
+    board.draw_board();
 }
