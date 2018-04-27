@@ -2,10 +2,6 @@
 #include <iostream>
 using namespace std;
 
-<<<<<<< HEAD
-GameBoard::GameBoard() {
-    missed_guesses = 2;
-=======
 GameBoard::GameBoard()
 {
     switch(missed_guesses)
@@ -75,7 +71,6 @@ GameBoard::GameBoard()
             cout << "   |         " << endl;
             cout << "   \-------| " << endl;
     }
->>>>>>> origin/master
 }
 
 void GameBoard::draw_board(void) {
